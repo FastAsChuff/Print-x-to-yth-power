@@ -36,7 +36,7 @@ int main(int argc, char** argv) {
     }
   } 
   if (!validargs) {
-    printf("Prints decimal representation of x^y.\n0 < x, y < 2^64\nUsage:- %s x y [maxdigits]\n", argv[0]);
+    printf("Prints decimal representation of x^y for positive integers x,y.\n0 < x, y < 2^64\nUsage:- %s x y [maxdigits]\n", argv[0]);
     exit(1);
   }  
   mpz_t mpzn;
